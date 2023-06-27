@@ -1,0 +1,20 @@
+from PIL import Image, ImageTk
+from tkinter import *
+def imagesButton():
+    btn1 = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\1.png")
+    btn2 = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\2.png")
+    btn3 = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\3.png")
+    btn4 = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\4.png")
+    btn5 = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\5.png")
+    btn6 = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\6.png")
+    btn7 = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\7.png")
+    btn8 = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\8.png")
+    btn9 = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\9.png")
+    btn0 = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\0.png")
+    btnclear = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\clear.png")
+    btnminus = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\minus.png")
+    btnplus = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\plus.png")
+    btndiv = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\div.png")
+    btnmulti = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\multi.png")
+    btndec = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\dec.png")
+    btnequal = PhotoImage(file = "C:\\Users\\penal\\Desktop\\SimpleCalculatorInPython\\images\\eq.png")
